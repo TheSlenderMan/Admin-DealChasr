@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /public_html/admin.dealchasr.co.uk"
+AuthUserFile /kunden/homepages/42/d713944377/htpasswd
+Require user dealchasradmin
