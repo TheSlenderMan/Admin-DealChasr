@@ -21,6 +21,21 @@ if(isset($_SESSION['userID'])){
 	<body>
 		<div id="master-container" >
 			<div id="tasks-container" >
+				<div id="customer-container" class="task-style" >
+					<h1>CUSTOMER SEARCH</h1>
+					<span class="error-text-customer" ></span><br /><br />
+					<label>CUSTOMER ID/EMAIL SEARCH</label>
+					<input type="text" class="input-text-center" id="customerEmail" /><br /><br />
+					<span class="success-text-customer" ></span><br /><br />
+					<div class="ds-btn" id="search-customers" >SEARCH</div>
+					<div id="customer-details" >
+					
+					</div>
+					<br /><br />
+				</div>
+				<div id="invoices-container" class="task-style" >
+					
+				</div>
 				<div id="notifications-container" class="task-style" >
 					<h1>SEND APP NOTIFICATION</h1>
 					<span class="error-text" ></span><br /><br />
