@@ -193,8 +193,7 @@ function sendNotification(){
             dataType: "JSON",
             data: {
                 "nTitle": title,
-                "nMessage": message,
-                "nTopic": topic
+                "nMessage": message
             },
             headers: {
                 "Authorization": "DS1k1Il68_uPPoD"

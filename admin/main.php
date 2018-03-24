@@ -43,8 +43,6 @@ if(isset($_SESSION['userID'])){
 					<input type="text" class="input-text-center" id="nTitle" /><br /><br />
 					<label>NOTIFICATION MESSAGE</label>
 					<input type="text" class="input-text-center" id="nMessage" /><br /><br />
-					<label>NOTIFICATION FCM TOPIC</label>
-					<input type="text" class="input-text-center" id="nTopic" /><br /><br />
 					<span class="success-text" ></span><br /><br />
 					<div class="ds-btn" id="send-notification" >SEND NOTIFICATION</div>
 				</div>
