@@ -16,6 +16,7 @@ if(isset($_SESSION['userID'])){
 		<link rel='stylesheet' href='http://admin.dealchasr.co.uk/admin/css/common.css' />
 
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" ></script>
+		<script src="http://admin.dealchasr.co.uk/js/token.js" type="text/javascript" ></script>
 		<script src="http://admin.dealchasr.co.uk/admin/js/common.js" type="text/javascript" ></script>
 	</head>
 	<body>
